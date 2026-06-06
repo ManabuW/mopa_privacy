@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>プライバシーポリシー - Mopa</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+      color: #212121;
+      line-height: 1.7;
+    }
+    h1 { font-size: 1.4rem; margin-bottom: 4px; }
+    h2 { font-size: 1.05rem; margin-top: 2em; border-bottom: 1px solid #e0e0e0; padding-bottom: 4px; }
+    .updated { color: #757575; font-size: 0.85rem; margin-bottom: 2em; }
+    ul { padding-left: 1.4em; }
+    li { margin: 4px 0; }
+    a { color: #212121; }
+    nav { margin-bottom: 2em; }
+    nav a { margin-right: 1em; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">ホーム</a>
+  <a href="terms-of-service.html">利用規約</a>
+</nav>
+
+<h1>プライバシーポリシー</h1>
+<p class="updated">最終更新日：2026年6月6日</p>
+
+<p>
+  本プライバシーポリシーは、Ham's Studio（以下「当社」）が提供する Android アプリ「Mopa」（以下「本アプリ」）における、
+  ユーザーの個人情報および端末情報の取り扱いについて定めるものです。
+</p>
+
+<h2>1. アクセスする情報と利用目的</h2>
+<p>本アプリは以下の情報にアクセスします。いずれの情報も外部サーバーへ送信・保存することはありません。</p>
+<ul>
+  <li>
+    <strong>カレンダー情報</strong>（READ_CALENDAR 権限）<br>
+    デバイスのカレンダーから予定タイトル・開始時刻・終日フラグを読み取ります。オーバーレイ上への予定表示およびリマインダー通知の目的にのみ使用し、カレンダーへの書き込みは行いません。
+  </li>
+  <li>
+    <strong>フォアグラウンドアプリ情報</strong>（PACKAGE_USAGE_STATS 権限）<br>
+    現在操作中のアプリのパッケージ名を取得し、アプリごとのオーバーレイ表示制御（表示・半透明・非表示の切り替え）に使用します。取得したパッケージ名はデバイス内でのみ処理され、外部に送信しません。
+  </li>
+  <li>
+    <strong>フォトライブラリの画像</strong>（READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE 権限）<br>
+    ユーザーがカスタムアイコンとして登録する画像ファイルにアクセスします。選択された画像はデバイス内にのみ保存（Room データベース）され、外部に送信しません。
+  </li>
+  <li>
+    <strong>メモ情報</strong><br>
+    アプリ内で作成・編集したメモはデバイス内（Room データベース）にのみ保存されます。外部サーバーへの送信は行いません。
+  </li>
+  <li>
+    <strong>アプリ設定</strong><br>
+    表示サイズ・透明度・リマインダー設定などの設定値はデバイス内（Android DataStore）にのみ保存されます。
+  </li>
+</ul>
+
+<h2>2. 課金情報</h2>
+<p>
+  本アプリは Google Play を通じたサブスクリプション課金機能（Mopa Premium）を提供しています。
+  決済処理はすべて Google Play Billing が行い、当社はクレジットカード番号などの支払い情報を取得・保存しません。
+  購入状態の確認には Google Play Billing ライブラリを使用し、インターネット接続（INTERNET 権限）を利用します。
+</p>
+
+<h2>3. 収集しない情報</h2>
+<ul>
+  <li>氏名・メールアドレス・電話番号などの個人識別情報</li>
+  <li>位置情報（GPS）</li>
+  <li>カメラ・マイクの情報</li>
+  <li>デバイスの連絡先</li>
+  <li>広告識別子（IDFA / GAID）</li>
+  <li>クラッシュレポート・アナリティクスデータ</li>
+</ul>
+
+<h2>4. 第三者への提供</h2>
+<p>
+  当社はユーザーの個人情報・端末情報を第三者に販売・提供・開示しません。
+  ただし法令に基づく開示が必要な場合はこの限りではありません。
+</p>
+
+<h2>5. 使用する権限</h2>
+<ul>
+  <li>
+    <strong>SYSTEM_ALERT_WINDOW（他のアプリの上に重ねて表示）</strong><br>
+    本アプリのコア機能であるオーバーレイ表示に使用します。ユーザーが明示的に許可するまで使用しません。
+  </li>
+  <li>
+    <strong>READ_CALENDAR（カレンダー読み取り）</strong><br>
+    予定の取得（オーバーレイ表示・リマインダー）に使用します。書き込みは行いません。
+  </li>
+  <li>
+    <strong>PACKAGE_USAGE_STATS（使用状況へのアクセス）</strong><br>
+    アプリ別表示制御機能のために使用します。ユーザーが明示的に許可するまで使用しません。
+  </li>
+  <li>
+    <strong>READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE（画像へのアクセス）</strong><br>
+    カスタムアイコン選択時にのみ使用します。選択中の画像にのみアクセスし、ライブラリ全体を走査しません。
+  </li>
+  <li>
+    <strong>USE_EXACT_ALARM / SCHEDULE_EXACT_ALARM（正確なアラーム）</strong><br>
+    指定時刻に正確にリマインダーを発火させるために使用します。
+  </li>
+  <li>
+    <strong>FOREGROUND_SERVICE / FOREGROUND_SERVICE_SPECIAL_USE（フォアグラウンドサービス）</strong><br>
+    オーバーレイを常駐表示するために使用します。
+  </li>
+  <li>
+    <strong>POST_NOTIFICATIONS（通知の送信）</strong><br>
+    リマインダー通知の送信に使用します。
+  </li>
+  <li>
+    <strong>RECEIVE_BOOT_COMPLETED（デバイス起動時）</strong><br>
+    自動起動設定が有効な場合にデバイス起動時にサービスを開始するために使用します。
+  </li>
+  <li>
+    <strong>INTERNET（インターネット接続）</strong><br>
+    Google Play Billing による課金状態の確認にのみ使用します。ユーザーデータの外部送信には使用しません。
+  </li>
+</ul>
+
+<h2>6. データの保存期間</h2>
+<p>
+  メモ・カスタムアイコン・アプリ設定はユーザーがアプリをアンインストールするまでデバイス内に保存されます。
+  アンインストールにより全データは削除されます。
+</p>
+
+<h2>7. セキュリティ</h2>
+<p>
+  取得した情報は外部サーバーへ送信されないため、ネットワーク経由でのデータ漏洩リスクはありません。
+  デバイス内のデータは Android の標準セキュリティ機能（アプリサンドボックス）により保護されます。
+</p>
+
+<h2>8. お子様のプライバシー</h2>
+<p>
+  本アプリは13歳未満の子どもを対象としていません。
+  13歳未満のユーザーから意図的に個人情報を収集することはありません。
+</p>
+
+<h2>9. ポリシーの変更</h2>
+<p>
+  本ポリシーは将来変更される場合があります。変更が生じた場合は本ページにて最新版を公開します。
+  重大な変更がある場合はアプリ内でお知らせします。
+</p>
+
+<h2>10. お問い合わせ</h2>
+<p>
+  本ポリシーに関するご質問は以下までお問い合わせください。<br>
+  <strong>Ham's Studio</strong><br>
+  メール：<a href="mailto:wtnb.manabu@gmail.com">wtnb.manabu@gmail.com</a>
+</p>
+
+</body>
+</html>
