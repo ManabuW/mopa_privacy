@@ -55,7 +55,7 @@
     </nav>
 
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: June 6, 2026</p>
+    <p class="updated">Last updated: October 26, 2026</p>
 
     <p>
       This Privacy Policy describes how Ham's Studio ("we", "us" or "our")
@@ -85,21 +85,38 @@
         externally.
       </li>
       <li>
-        <strong>Images from your photo library</strong> (READ_MEDIA_IMAGES /
-        READ_EXTERNAL_STORAGE permission)<br />
-        The App accesses image files that you choose to register as custom
-        icons. Selected images are stored only on your device (Room database)
-        and are never sent externally.
+        <strong>Images you select</strong> (no permission required)<br />
+        You choose images for custom icons and the photo frame using Android's
+        system Photo Picker. The App can access only the images you select and
+        does not request permission to access your entire photo library.
+        Selected images are copied into the App, stored only on your device and
+        never sent externally.
       </li>
       <li>
         <strong>Memos</strong><br />
-        Memos you create and edit in the App are stored only on your device
-        (Room database). They are never sent to external servers.
+        Memos you create and edit in the App, and text shared to the App from
+        other apps, are stored only on your device (Room database). They are
+        never sent to external servers.
+      </li>
+      <li>
+        <strong>Events created in the App</strong><br />
+        Events you create in the App are stored only on your device (Room
+        database). The App does not write them to your device calendar.
       </li>
       <li>
         <strong>App settings</strong><br />
-        Settings such as display size, opacity and reminder preferences are
-        stored only on your device (Android DataStore).
+        Settings such as display size, opacity, reminder preferences, scenes
+        and per-app display rules are stored only on your device (Android
+        DataStore).
+      </li>
+      <li>
+        <strong>Backup files</strong> (Mopa Premium)<br />
+        When you use the backup feature, the App writes a file containing your
+        settings, memos, events and registered images to a location you choose
+        (such as device storage or a cloud storage provider). You choose the
+        location yourself in Android's standard file picker, and the App never
+        sends the file anywhere on its own. When restoring, the App reads only
+        the file you select.
       </li>
     </ul>
 
@@ -146,13 +163,6 @@
         explicitly grant it.
       </li>
       <li>
-        <strong
-          >READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE (Access to images)</strong
-        ><br />
-        Used only when you choose a custom icon. The App accesses only the
-        images you select and never scans your entire library.
-      </li>
-      <li>
         <strong>USE_EXACT_ALARM / SCHEDULE_EXACT_ALARM (Exact alarms)</strong
         ><br />
         Used to trigger reminders precisely at the specified time.
@@ -182,8 +192,10 @@
 
     <h2>6. Data Retention</h2>
     <p>
-      Memos, custom icons and app settings are stored on your device until you
-      uninstall the App. Uninstalling the App deletes all of this data.
+      Memos, events, custom icons and app settings are stored on your device
+      until you uninstall the App. Uninstalling the App deletes all of this
+      data. However, backup files you have exported remain under your control
+      and stay in the location you saved them to after uninstalling.
     </p>
 
     <h2>7. Security</h2>
