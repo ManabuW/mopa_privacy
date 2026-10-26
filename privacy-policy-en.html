@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Mopa</title>
+    <style>
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 24px 16px 64px;
+        color: #212121;
+        line-height: 1.7;
+      }
+      h1 {
+        font-size: 1.4rem;
+        margin-bottom: 4px;
+      }
+      h2 {
+        font-size: 1.05rem;
+        margin-top: 2em;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 4px;
+      }
+      .updated {
+        color: #757575;
+        font-size: 0.85rem;
+        margin-bottom: 2em;
+      }
+      ul {
+        padding-left: 1.4em;
+      }
+      li {
+        margin: 4px 0;
+      }
+      a {
+        color: #212121;
+      }
+      nav {
+        margin-bottom: 2em;
+      }
+      nav a {
+        margin-right: 1em;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="terms-of-service-en.html">Terms of Service</a>
+      <a href="privacy-policy.html" lang="ja">日本語</a>
+    </nav>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 6, 2026</p>
+
+    <p>
+      This Privacy Policy describes how Ham's Studio ("we", "us" or "our")
+      handles users' personal information and device information in the
+      Android app "Mopa" (the "App").
+    </p>
+
+    <h2>1. Information We Access and How We Use It</h2>
+    <p>
+      The App accesses the information listed below. None of this information
+      is sent to or stored on any external server.
+    </p>
+    <ul>
+      <li>
+        <strong>Calendar information</strong> (READ_CALENDAR permission)<br />
+        The App reads event titles, start times and all-day flags from the
+        calendars on your device. This information is used only to show your
+        events on the overlay and to send reminder notifications. The App never
+        writes to your calendar.
+      </li>
+      <li>
+        <strong>Foreground app information</strong> (PACKAGE_USAGE_STATS
+        permission)<br />
+        The App obtains the package name of the app you are currently using in
+        order to control the overlay on a per-app basis (show, dim or hide).
+        Package names are processed only on your device and are never sent
+        externally.
+      </li>
+      <li>
+        <strong>Images from your photo library</strong> (READ_MEDIA_IMAGES /
+        READ_EXTERNAL_STORAGE permission)<br />
+        The App accesses image files that you choose to register as custom
+        icons. Selected images are stored only on your device (Room database)
+        and are never sent externally.
+      </li>
+      <li>
+        <strong>Memos</strong><br />
+        Memos you create and edit in the App are stored only on your device
+        (Room database). They are never sent to external servers.
+      </li>
+      <li>
+        <strong>App settings</strong><br />
+        Settings such as display size, opacity and reminder preferences are
+        stored only on your device (Android DataStore).
+      </li>
+    </ul>
+
+    <h2>2. Payment Information</h2>
+    <p>
+      The App offers subscription purchases (Mopa Premium) through Google Play.
+      All payments are processed by Google Play Billing, and we do not collect
+      or store payment information such as credit card numbers. The App uses
+      the Google Play Billing Library and an internet connection (INTERNET
+      permission) to check your purchase status.
+    </p>
+
+    <h2>3. Information We Do Not Collect</h2>
+    <ul>
+      <li>Personally identifiable information such as your name, email address or phone number</li>
+      <li>Location information (GPS)</li>
+      <li>Camera or microphone data</li>
+      <li>Your device contacts</li>
+      <li>Advertising identifiers (IDFA / GAID)</li>
+      <li>Crash reports or analytics data</li>
+    </ul>
+
+    <h2>4. Sharing with Third Parties</h2>
+    <p>
+      We do not sell, provide or disclose users' personal information or device
+      information to third parties, except where disclosure is required by law.
+    </p>
+
+    <h2>5. Permissions Used</h2>
+    <ul>
+      <li>
+        <strong>SYSTEM_ALERT_WINDOW (Display over other apps)</strong><br />
+        Used for the overlay, which is the App's core feature. It is not used
+        until you explicitly grant it.
+      </li>
+      <li>
+        <strong>READ_CALENDAR (Read calendar)</strong><br />
+        Used to retrieve your events (overlay display and reminders). The App
+        never writes to your calendar.
+      </li>
+      <li>
+        <strong>PACKAGE_USAGE_STATS (Usage access)</strong><br />
+        Used for the per-app display control feature. It is not used until you
+        explicitly grant it.
+      </li>
+      <li>
+        <strong
+          >READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE (Access to images)</strong
+        ><br />
+        Used only when you choose a custom icon. The App accesses only the
+        images you select and never scans your entire library.
+      </li>
+      <li>
+        <strong>USE_EXACT_ALARM / SCHEDULE_EXACT_ALARM (Exact alarms)</strong
+        ><br />
+        Used to trigger reminders precisely at the specified time.
+      </li>
+      <li>
+        <strong
+          >FOREGROUND_SERVICE /
+          FOREGROUND_SERVICE_SPECIAL_USE (Foreground service)</strong
+        ><br />
+        Used to keep the overlay displayed on screen.
+      </li>
+      <li>
+        <strong>POST_NOTIFICATIONS (Send notifications)</strong><br />
+        Used to send reminder notifications.
+      </li>
+      <li>
+        <strong>RECEIVE_BOOT_COMPLETED (Run at startup)</strong><br />
+        Used to start the service when your device boots, if auto-start is
+        enabled.
+      </li>
+      <li>
+        <strong>INTERNET (Internet access)</strong><br />
+        Used only to check your purchase status via Google Play Billing. It is
+        never used to send user data externally.
+      </li>
+    </ul>
+
+    <h2>6. Data Retention</h2>
+    <p>
+      Memos, custom icons and app settings are stored on your device until you
+      uninstall the App. Uninstalling the App deletes all of this data.
+    </p>
+
+    <h2>7. Security</h2>
+    <p>
+      Because the information the App accesses is never sent to external
+      servers, there is no risk of data leakage over the network. Data on your
+      device is protected by Android's standard security features (app
+      sandboxing).
+    </p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>
+      The App is not directed at children under the age of 13. We do not
+      knowingly collect personal information from users under 13.
+    </p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this Policy from time to time. When we do, we will publish
+      the latest version on this page. If there are significant changes, we
+      will notify you within the App.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <p>
+      If you have any questions about this Policy, please contact us at:<br />
+      <strong>Ham's Studio</strong><br />
+      Email: <a href="mailto:info.hamsstudio@gmail.com"
+        >info.hamsstudio@gmail.com</a
+      >
+    </p>
+
+    <p class="updated">
+      This English version is a translation of the Japanese original. In the
+      event of any discrepancy, the Japanese version shall prevail.
+    </p>
+  </body>
+</html>
